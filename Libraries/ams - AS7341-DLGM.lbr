@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="0" number="4" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="0" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="4" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="4" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="AMS_AS7341-DLGM_0">
+                    <description>Light to Frequency Ambient Light Sensor Digital-I2C-OUT 8-Pin OLGA T/R</description>
+                    <polygon layer="29">
+                        <vertex y="1.444" x="-0.925"/>
+                        <vertex y="1.444" x="-0.925"/>
+                        <vertex y="0.956" x="-0.925"/>
+                        <vertex y="0.956" x="-0.6"/>
+                        <vertex y="1.206" x="-0.35"/>
+                        <vertex y="1.444" x="-0.35"/>
+                        <vertex y="1.444" x="-0.925"/>
+                    </polygon>
+                    <polygon layer="31">
+                        <vertex y="1.444" x="-0.925"/>
+                        <vertex y="1.444" x="-0.925"/>
+                        <vertex y="0.956" x="-0.925"/>
+                        <vertex y="0.956" x="-0.6"/>
+                        <vertex y="1.206" x="-0.35"/>
+                        <vertex y="1.444" x="-0.35"/>
+                        <vertex y="1.444" x="-0.925"/>
+                    </polygon>
+                    <polygon layer="1">
+                        <vertex y="1.444" x="-0.925"/>
+                        <vertex y="1.444" x="-0.925"/>
+                        <vertex y="0.956" x="-0.925"/>
+                        <vertex y="0.956" x="-0.6"/>
+                        <vertex y="1.206" x="-0.35"/>
+                        <vertex y="1.444" x="-0.35"/>
+                        <vertex y="1.444" x="-0.925"/>
+                    </polygon>
+                    <wire layer="51" y2="1.55" width="0.15" x2="-1.0" y1="-1.55" x1="-1.0"/>
+                    <wire layer="51" y2="1.55" width="0.15" x2="1.0" y1="1.55" x1="-1.0"/>
+                    <wire layer="51" y2="-1.55" width="0.15" x2="1.0" y1="1.55" x1="1.0"/>
+                    <wire layer="51" y2="-1.55" width="0.15" x2="-1.0" y1="-1.55" x1="1.0"/>
+                    <wire layer="41" y2="2.05" width="0.1" x2="-1.5" y1="-2.05" x1="-1.5"/>
+                    <wire layer="41" y2="2.05" width="0.1" x2="1.5" y1="2.05" x1="-1.5"/>
+                    <wire layer="41" y2="-2.05" width="0.1" x2="1.5" y1="2.05" x1="1.5"/>
+                    <wire layer="41" y2="-2.05" width="0.1" x2="-1.5" y1="-2.05" x1="1.5"/>
+                    <wire layer="21" y2="1.8" width="0.15" x2="-1.25" y1="-1.8" x1="-1.25"/>
+                    <wire layer="21" y2="1.8" width="0.15" x2="1.25" y1="1.8" x1="-1.25"/>
+                    <wire layer="21" y2="-1.8" width="0.15" x2="1.25" y1="1.8" x1="1.25"/>
+                    <wire layer="21" y2="-1.8" width="0.15" x2="-1.25" y1="-1.8" x1="1.25"/>
+                    <text layer="25" align="bottom-left" y="2.15" x="-1.0" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="1.225" x="-1.9" layer="21" radius="0.25" width="0.0"/>
+                    <smd layer="1" thermals="no" name="1" stop="no" roundness="100" dx="0.414" dy="0.414" y="1.2" x="-0.681" rot="R0" cream="no"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="0" dx="0.575" dy="0.488" y="0.4" x="-0.638" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="0" dx="0.575" dy="0.488" y="-0.4" x="-0.638" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="0" dx="0.575" dy="0.488" y="-1.2" x="-0.638" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="0" dx="0.575" dy="0.488" y="-1.2" x="0.638" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="0" dx="0.575" dy="0.488" y="-0.4" x="0.638" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="0" dx="0.575" dy="0.488" y="0.4" x="0.638" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="0" dx="0.575" dy="0.488" y="1.2" x="0.638" rot="R0" cream="yes"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="AMS_AS7341-DLGM_0_0">
+                    <description>Light to Frequency Ambient Light Sensor Digital-I2C-OUT 8-Pin OLGA T/R</description>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="2.54" y1="-22.86" x1="2.54"/>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="25.4" y1="-5.08" x1="2.54"/>
+                    <wire layer="94" y2="-22.86" width="0.254" x2="25.4" y1="-5.08" x1="25.4"/>
+                    <wire layer="94" y2="-22.86" width="0.254" x2="2.54" y1="-22.86" x1="25.4"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="2.54" y1="-7.62" x1="2.54"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="25.4" y1="-7.62" x1="25.4"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="2.54" y1="-20.32" x1="2.54"/>
+                    <wire layer="94" y2="-12.7" width="0.15" x2="25.4" y1="-12.7" x1="25.4"/>
+                    <wire layer="94" y2="-12.7" width="0.15" x2="2.54" y1="-12.7" x1="2.54"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="2.54" y1="-15.24" x1="2.54"/>
+                    <wire layer="94" y2="-17.78" width="0.15" x2="25.4" y1="-17.78" x1="25.4"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="25.4" y1="-20.32" x1="25.4"/>
+                    <text layer="95" align="top-left" y="-2.54" x="2.54" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-25.4" x="2.54" rot="R0" size="2.54">AS7341-DLGM</text>
+                    <pin direction="pwr" name="VDD" visible="both" length="middle" y="-7.62" x="-2.54"/>
+                    <pin direction="io" name="GPIO" visible="both" length="middle" y="-7.62" x="30.48" rot="R180"/>
+                    <pin direction="out" name="INT" visible="both" length="middle" y="-20.32" x="-2.54"/>
+                    <pin direction="in" name="LDR" visible="both" length="middle" y="-12.7" x="30.48" rot="R180"/>
+                    <pin direction="io" name="SCL" visible="both" length="middle" y="-12.7" x="-2.54"/>
+                    <pin direction="io" name="SDA" visible="both" length="middle" y="-15.24" x="-2.54"/>
+                    <pin direction="pwr" name="GND" visible="both" length="middle" y="-17.78" x="30.48" rot="R180"/>
+                    <pin direction="pwr" name="PGND" visible="both" length="middle" y="-20.32" x="30.48" rot="R180"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="U" name="AMS_AS7341-DLGM">
+                    <description>Light to Frequency Ambient Light Sensor Digital-I2C-OUT 8-Pin OLGA T/R</description>
+                    <gates>
+                        <gate name="G$0" symbol="AMS_AS7341-DLGM_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="AMS_AS7341-DLGM_0_0" package="AMS_AS7341-DLGM_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="VDD"/>
+                                <connect gate="G$0" pad="2" pin="SCL"/>
+                                <connect gate="G$0" pad="3" pin="GND"/>
+                                <connect gate="G$0" pad="4" pin="LDR"/>
+                                <connect gate="G$0" pad="5" pin="PGND"/>
+                                <connect gate="G$0" pad="6" pin="GPIO"/>
+                                <connect gate="G$0" pad="7" pin="INT"/>
+                                <connect gate="G$0" pad="8" pin="SDA"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_description" value="AS7341 Series 11-Channel Spectral Color Ambient Light Sensor - OLGA-8"/>
+                                    <attribute name="ambient_temperature_range_low" value="-30°C"/>
+                                    <attribute name="mouser_part_number" value="985-AS7341-DLGM"/>
+                                    <attribute name="mfg_package_ident_rev" value="0"/>
+                                    <attribute name="mfg_package_ident_date" value="0"/>
+                                    <attribute name="temperature_range_high" value="+70°C"/>
+                                    <attribute name="ambient_temperature_range_high" value="+70°C"/>
+                                    <attribute name="digikey_description" value="SENSOR AMBIENT LIGHT"/>
+                                    <attribute name="temperature_range_low" value="-30°C"/>
+                                    <attribute name="device_class_L1" value="Sensors"/>
+                                    <attribute name="digikey_part_number" value="AS7341-DLGMCT-ND"/>
+                                    <attribute name="max_supply_voltage" value="2V"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="verification_version" value="0.0.0.3"/>
+                                    <attribute name="operating_supply_current" value="0.7-210uA"/>
+                                    <attribute name="datasheet" value="https://media.digikey.com/pdf/Data%20Sheets/Austriamicrosystems%20PDFs/AS7341_DS.pdf"/>
+                                    <attribute name="sensor_output" value="I2C"/>
+                                    <attribute name="MF" value="ams"/>
+                                    <attribute name="MPN" value="AS7341-DLGM"/>
+                                    <attribute name="lead_free" value="Yes"/>
+                                    <attribute name="height" value="1.1mm"/>
+                                    <attribute name="automotive" value="No"/>
+                                    <attribute name="mfg_package_ident" value="0"/>
+                                    <attribute name="footprint_variant_name_0" value="Recommended_Land_Pattern"/>
+                                    <attribute name="device_class_L2" value="Optical Sensors"/>
+                                    <attribute name="device_class_L3" value="unset"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="min_supply_voltage" value="1.7V"/>
+                                    <attribute name="package" value="OLGA8"/>
+                                    <attribute name="pin_0_0_4_inside_edge" value="clock"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>
